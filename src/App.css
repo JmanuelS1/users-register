@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+   color: #fff;
+   margin: 0;
+   padding-bottom: 20px;
+ }
+
+ img {
+   display: inline-block;
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+ }
+
+ input,
+ button {
+   display: inline-block;
+   cursor: pointer;
+   height: 20px;
+   text-align: center;
+ }
+
+ button {
+   border: none;
+   padding: 0 15px;
+ }
+
+ ul {
+   list-style: none;
+ }
+
+ a {
+   text-decoration: none;
+   color: dodgerblue
+ }
+
+ .app__header{
+  padding: 20px 45px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+
+ .app__header button{
+  font-size: 19px;
+  padding: 10px 10px;
+  height: 47px;
+  background-color: #007bff;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 0.3s, transform 0.3s;
+ }
+
+ .app__header button:hover{
+  background-color: #0056b3; 
+  transform: scale(1.08)
+ }
+ 
+ .app__container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding: 20px;
+   justify-content: space-evenly;
+ }
+
+ /* .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   min-height: 100vh; 
+} */
+
+
